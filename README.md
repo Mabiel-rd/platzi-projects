@@ -10,4 +10,111 @@ JavaScript, es el lenguaje que hace que todo sea interactivo y que nos permite c
 
  Una variable es un elemento que se emplea para almacenar y hacer referencia a otro valor. Gracias a las variables es posible crear “programas genéricos”, es decir, programas que funcionan siempre igual e independientemente de los valores concretos utilizados.
 
+ ### primera linea de codigo
+
+ alert ("Mi nombre es mabiel")
+ so sirve para dar un aviso
+ este curos nos enseña mas bien a declarar variables...
+
+ ### JavaScript no es Java
+
+ Java es un lenguaje para servidores, aplicaciones de escritorio y aplicaciones Android
+
+JavaScript es el lenguaje de la web, servidores, robots, etc
+
+### Primeros pasos en el navegador con alert
+
+alert('Hola mamá, estoy programando');
+Lo que has hecho es ejecutar una función, estas son colecciones de código que hacen algo, en JS siempre que quieres ejecutar una debes escribir paréntesis de apertura y de cierre, las comillas delimitan un texto (string) y punto y coma (;) se utiliza para terminar la instrucción.
+
+También, podemos crear operaciones básicas,
+
+var x = 1;
+
+var y = 2;
+
+var z = x + y;
+
+Hemos declarado variables, las declaramos con la palabra reservada var, el nombre, operador de asignación (=) y el valor que va a tener.
+
+### HTML, CSS, JavaScript de verdad
+
+Los archivos HTML funciona con etiquetas, por ejemplo
+
+Hola mamá *ya casi aprendo*
+
+Todos los contenidos en HTML deberían estar dentro de una etiqueta, y todos los archivos HTML tienen esta estructura, cómo
+
+<title>Título de la página</title>
+
+Contenido de la página
+
+La etiqueta que te permite escribir CSS dentro de HTML es <style>, se coloca dentro de head. La etiqueta para escribir JS dentro de HTML es <script>, se coloca antes de terminar el body.
+
+
+### Obteniendo datos del usuario
+cosas que tengo que tener en cuenta al momento de interactuar  con lo de esta parte del curso
+
+La consola nos sirve para saber el estado de las variables
  
+Cuando tienen un valor en comillas("") es un texto
+ 
+Puedes usar la función prompt para recibir datos del usuario.
+ 
+Concatenar es unir cadenas de texto a variables
+
+### Flujo y condicionales
+
+Para escribir una condicional usas la palabra reservada if, puedes escribir una como
+
+if (planeta == 1)
+
+{
+
+// Código si la condición se cumple
+
+}
+
+else
+
+{
+
+// Código si la condición no se cumple
+
+}
+
+Si quisiéramos tener tener varias condiciones podemos escribir nuevas condiciones con la palabra reservada else if
+
+if (planeta == 1)
+
+{
+
+// Código si la condición se cumple
+
+}
+
+else if (planeta == 2)
+
+{
+
+// Código si la segunda condición se cumple
+
+}
+
+else
+
+{
+
+// Código si las condiciones no se cumplen
+
+}
+
+### El DOM: nuestro lugar de trabajo en la web
+
+n programación existen objetos, estos son como envolturas para código, el navegador tiene algunos nativos cómo:
+
+navigator: El objeto que contiene las funciones del navegador, también te permite acceder también al sistema operativo como el gps, guardar datos en el disco duro, etc.
+
+window: El objeto que maneja cada una de las pestañas.
+
+document: El objeto que contiene todo lo que vemos dentro de nuestra página

@@ -118,3 +118,32 @@ navigator: El objeto que contiene las funciones del navegador, también te permi
 window: El objeto que maneja cada una de las pestañas.
 
 document: El objeto que contiene todo lo que vemos dentro de nuestra página
+
+### Cómo funcionan Window y Document
+
+Los objetos contienen
+
+Métodos: funciones dentro de un objeto
+Atributo o propiedad: variables internas que almacenan valores
+
+ ### Dibujando en el DOM
+ Para dibujar usamos JS para darle las instrucciones y los canvas funcionan con coordenadas
+
+Solamente llegando al canvas no podemos dibujar, debemos crear un contexto, ahora sí, mira cómo dibujar con HTML y JavaScript
+y tenemos que recordar que ID es el identificador con el que podemos encontrar etiquetas con JavaScript, los nombres siguen las mismas reglas que las variables
+ 
+Puedes obtener un elemento con su id buscándolo con document.getElementById('nombre_id');
+
+### Funciones en JavaScript
+
+La funciones son una herramienta que nos permite escribir código que vamos a re-usar múltiples veces,
+
+Puedes escribir una función en JavaScript así:
+
+function nombreFuncion(parametros) {
+
+ //Código que ejecuta la función
+
+}
+ 
+cómo crear una función con la que puedas crear las líneas que necesites.

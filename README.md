@@ -147,3 +147,59 @@ function nombreFuncion(parametros) {
 }
  
 cómo crear una función con la que puedas crear las líneas que necesites.
+
+### Ciclos while y for en JavaScript
+
+Al ejecutar el VI, se ejecuta el código dentro del ciclo While y luego se evalúa la condición de la terminal. ... A diferencia de un ciclo For, la ejecución del ciclo While no depende de la cantidad de iteraciones; por lo tanto, un ciclo While se ejecuta indefinidamente si la condición nunca ocurre.
+
+Otro concepto fundamental en programación son los ciclos,
+Los ciclos son piezas de código que se repiten hasta que se cumple una condición
+
+### Eventos y Formularios en HTML y JavaScript
+
+Los eventos son funciones que suceden cuando algo ocurre,  sucesos cómo un click, pulsar una tecla, colocar el mouse sobre un botón, etc.
+
+Creemos un programa que reciba la cantidad de líneas con las que queremos crear nuestra imagen.
+
+tenemos que recordar que Cuando queremos enviar información a un servidor podemos usar un formularios
+
+En JavaScript puedes agregar un manejador de eventos con element.addEventListener('event', function)
+
+### Detectar eventos del teclado con JavaScript
+
+Podemos hacer que nuestro dibujo reaccione al teclado, primero debemos aprender a detectar eventos del teclado.
+
+ Recordemos que un programador divide los grandes problemas en problemas más pequeños.
+ 
+Todo manejador de eventos devuelve un objeto con los detalles del evento
+
+### Funciones matemáticas y números aleatorios en JavaScript
+
+cosas importantes que tenemos que saber 
+
+Math.floor() devuelve el número entero por debajo de los decimales.
+
+Math.ceil() devuelve el siguiente número entero arriba de los decimales
+
+Math.random() devuelve un número aleatorio de 0 a 0.999..
+
+### Uso y carga de imágenes en Canvas
+
+En canvas puedes insertar imágenes, hagámoslo con nuestra villa platzi.
+
+tenemos que tener en cuenta que Debemos agregar la imagen en el evento load del objeto.
+ 
+Debemos usar el método .drawImage del canvas para insertar la imagen.
+
+Canvas dibuja siempre encima del último objeto.
+
+### División, módulo y residuo en JavaScript
+
+Cuando te presentas a un trabajo de programador tal vez debas resolver un problema llamado fizzbuzz, este busca conocer tus conocimientos, veamos cómo resolverlos
+
+Primero debes conocer cómo calcular el residuo de una división, ahora puedes llevar esto a código
+
+estas son las  cosas que tenemos que tomar en cuenta
+Para calcular el módulo puedes usar % tambien que Los programas dividen los programas complejos en problemas pequeños y tambien queLa operación lógica and (y) se escribe en JavaScript con &&.
+
+

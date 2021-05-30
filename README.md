@@ -202,4 +202,78 @@ Primero debes conocer cómo calcular el residuo de una división, ahora puedes l
 estas son las  cosas que tenemos que tomar en cuenta
 Para calcular el módulo puedes usar % tambien que Los programas dividen los programas complejos en problemas pequeños y tambien queLa operación lógica and (y) se escribe en JavaScript con &&.
 
+### Implementación del Cajero Automático
+Implementemos el algoritmo que creamos para un cajero automático.Primero debemos crear nuestra estructura HTML, luego vamos a pasar nuestro algoritmo a código mira como hacerlo.
+
+hay cosas que tenemos que tomar en cuenta como que Los programadores dividen problemas grandes en varios pequeños al igual que,Prueba frecuentemente que el código escrito funciona
+
+### Modelo Cliente/Servidor
+Las tecnologías utilizadas en aplicaciones web son:
+
+Bases de datos, MySQL es una base de datos relacionales y MongoDB es una base de datos no relacional Backend, existen muchos lenguajes que puedes usar cómo Python, Ruby, JavaScript Servidores, existen tecnologías como NGINX, Apache, Node Frontend, son las tecnologías que corren en el navegador, HTML, CSS y JavaScript.
+A un grupo de tecnologías se les conoce como Stack.
+
+recordemos que si tuvieras un código en el Frontend que se conectara a una base de datos, esta seria visible para todos.
+
+### Primer servidor web con express
+
+cosa importante que tenemos que tomar en cuenta:
+1-Si no has usado una línea de comando en Platzi tenemos un curso para que aprendas.
+ 
+2-NodeJS es un runtime para poder correr JavaScript sin un navegador.
+ 
+3-Debes tener permisos de administrador para poder instalar NodeJS en tu computador.
+
+### ¿Cómo funciona un circuito electrónico?
+
+Los circuitos eléctricos comienzan a funcionar cuando se enciende o activa el interruptor. La electricidad viaja desde la fuente de alimentación hasta las resistencias, piezas que permiten el flujo de electrones en su interior y, por ende, el paso de la corriente eléctrica.
+
+### ¿Cómo programar un Arduino?
+
+int amarillo = 13;
+int rojo = 7;
+int milisegundos = 300;
+
+void setup()
+{
+  pinMode(amarillo, OUTPUT);
+  pinMode(rojo, OUTPUT);
+}
+
+void loop()
+{
+  digitalWrite(amarillo, HIGH);
+  digitalWrite(rojo, LOW);
+  delay(milisegundos);
+  digitalWrite(amarillo, LOW);
+  digitalWrite(rojo, HIGH);
+  delay(milisegundos * 2);
+}
+esto es el ejemplo que explica y hace Freddy Vega el cual es muy importante verlo y saberlo.
+
+### Programación de circuitos con C, Arduino y Sketch
+
+int bombillo = 13;
+int espera = 500;
+
+void setup() {
+  // put your setup code here, to run once:
+  pinMode(bombillo, OUTPUT);
+}
+
+void loop() {
+  // put your main code here, to run repeatedly:
+  digitalWrite(bombillo, HIGH);
+  delay(espera * 2);
+  digitalWrite(bombillo, LOW);
+  delay(espera);
+}
+
+### Qué son tablas de verdad y compuertas lógicas
+
+Una tabla de verdad muestra el valor de verdadero de una proposición compuesta, para cada combinación de verdad que se pueda asignar. Esto es la base de la programación y la electrónica.
+
+
+
+
 
